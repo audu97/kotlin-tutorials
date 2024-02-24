@@ -1,0 +1,1332 @@
+repo_name: audu97/kotlin-tutorials
+report_id: 3e79f15fecb95c0eabb8e27c2347147b
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-24T13:12:57+00:00'
+requested_by: nappy29
+provider: github
+branch: master
+detected_tools_count: 102
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials
+  detection_source: Repo Metadata
+- name: Java EE
+  description: The standard in community-driven enterprise software
+  website_url: http://www.oracle.com/technetwork/java/javaee/overview/index.html
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4522/652rxwyK_400x400.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/jee-kotlin/pom.xml
+  detection_source: jee-kotlin/pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-11-24 15:14:49.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-js/package.json
+  detection_source: kotlin-js/package.json
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-11-24 15:14:49.000000000 Z
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries-orm/src/test/resources/com/baeldung/ktorm/ktorm_domain.sql
+  detection_source: kotlin-libraries-orm/src/test/resources/com/baeldung/ktorm/ktorm_domain.sql
+  last_updated_by: David Parlanti
+  last_updated_on: 2023-11-24 18:00:08.000000000 Z
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-apache-kafka/app/build.gradle.kts
+  detection_source: kotlin-apache-kafka/app/build.gradle.kts
+  last_updated_by: Mikhail Rykov
+  last_updated_on: 2022-12-07 20:46:47.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-js/package.json
+  detection_source: kotlin-js/package.json
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-11-24 15:14:49.000000000 Z
+- name: Project Reactor
+  description: Library for building non-blocking applications on JVM
+  website_url: https://projectreactor.io/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/5807/default_cbd8ab670309059d7e315252d307d409aa40d793.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/spring-boot-kotlin/pom.xml
+  detection_source: spring-boot-kotlin/pom.xml
+  last_updated_by: Chrys Exaucet
+  last_updated_on: 2023-05-11 02:49:11.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries-2/pom.xml
+  detection_source: kotlin-libraries-2/pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2022-11-17 18:10:23.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries-rdbms/build.gradle
+  detection_source: kotlin-libraries-rdbms/build.gradle
+  last_updated_by: Mikhail Polivakha
+  last_updated_on: 2023-08-18 07:27:15.000000000 Z
+- name: guava
+  description: Google Core Libraries for Java 6+
+  website_url: https://github.com/google/guava
+  version: '31.0'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2970/wBjKn0ol.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/gradle-kotlin-dsl/gradle-kotlin-dsl/build.gradle.kts
+  detection_source: kotlin-libraries-2/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-06-14 22:31:44.000000000 Z
+- name: GraphQL
+  description: A data query language and runtime
+  website_url: http://graphql.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Query Languages
+  image_url: https://img.stackshare.io/service/3820/12972006.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-ktor/src/main/resources/client/schema.graphql
+  detection_source: kotlin-ktor/src/main/resources/client/schema.graphql
+  last_updated_by: Vlad
+  last_updated_on: 2023-10-17 21:24:50.000000000 Z
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries/pom.xml
+  detection_source: kotlin-libraries/pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-11-24 15:14:49.000000000 Z
+- name: Hibernate
+  description: Idiomatic persistence for Java and relational databases.
+  website_url: http://hibernate.org/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1756/1uNl_IZX.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/spring-mvc-kotlin/src/test/resources/hibernate.properties
+  detection_source: spring-mvc-kotlin/src/test/resources/hibernate.properties
+  last_updated_by: Forb Yuan
+  last_updated_on: 2023-07-17 20:13:49.000000000 Z
+- name: Kafka
+  description: Distributed, fault tolerant, high throughput pub-sub messaging system
+  website_url: http://kafka.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1063/kazUJooF_400x400.jpg
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-apache-kafka/docker-compose.yml
+  detection_source: kotlin-apache-kafka/docker-compose.yml
+  last_updated_by: Mikhail Rykov
+  last_updated_on: 2022-12-14 22:47:35.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/spring-reactive-kotlin/pom.xml
+  detection_source: spring-reactive-kotlin/pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-11-25 11:37:41.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries-orm/pom.xml
+  detection_source: kotlin-libraries-orm/pom.xml
+  last_updated_by: David Parlanti
+  last_updated_on: 2023-11-24 18:00:08.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries-rdbms/build.gradle
+  detection_source: kotlin-libraries-rdbms/build.gradle
+  last_updated_by: Mikhail Polivakha
+  last_updated_on: 2023-08-18 07:27:15.000000000 Z
+- name: jOOQ
+  description: A light database-mapping software library
+  website_url: http://www.jooq.org
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/2279/jooq-logo-white-750x750-padded.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries-rdbms/build.gradle
+  detection_source: kotlin-libraries-rdbms/build.gradle
+  last_updated_by: Mikhail Polivakha
+  last_updated_on: 2023-08-18 07:27:15.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/gradle-kotlin-dsl/gradlew
+  detection_source: gradle-kotlin-dsl/gradlew
+  last_updated_by: Harihar Das
+  last_updated_on: 2021-12-20 22:30:26.000000000 Z
+- name: JBoss
+  description: An open source Java EE-based application server
+  website_url: https://developers.redhat.com/products/eap
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/2188/unnamed.jpg
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/jee-kotlin/pom.xml
+  detection_source: jee-kotlin/pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-11-24 15:14:49.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: 3.8.1
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/core-kotlin-modules/core-kotlin-concurrency-3/pom.xml
+  detection_source: core-kotlin-modules/core-kotlin-concurrency-3/pom.xml
+  last_updated_by: Kanake
+  last_updated_on: 2024-01-09 07:54:31.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-js/src/main/resources/logback.xml
+  detection_source: kotlin-js/src/main/resources/logback.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-11-24 15:14:49.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/gradle-kotlin-dsl/gradle-kotlin-dsl/build.gradle.kts
+  detection_source: pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2023-02-02 16:40:07.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-quasar/pom.xml
+  detection_source: kotlin-quasar/pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-11-24 15:14:49.000000000 Z
+- name: Zookeeper
+  description: Because coordinating distributed systems is a Zoo
+  website_url: http://zookeeper.apache.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Open Source Service Discovery
+  image_url: https://img.stackshare.io/service/1528/apache-zookeeper.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-apache-kafka/docker-compose.yml
+  detection_source: kotlin-apache-kafka/docker-compose.yml
+  last_updated_by: Mikhail Rykov
+  last_updated_on: 2022-12-14 22:47:35.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-js/package.json
+  detection_source: kotlin-js/package.json
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-11-24 15:14:49.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-gradle-openapi/src/main/resources/application.yml
+  detection_source: kotlin-gradle-openapi/src/main/resources/application.yml
+- name: Dataform
+  description: A framework for managing SQL based data operations.
+  website_url: https://dataform.co/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Analytics
+  sub_category: Business Intelligence
+  image_url: https://img.stackshare.io/service/11236/Group_22__3_.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries-2/pom.xml
+  detection_source: kotlin-libraries-2/pom.xml
+  last_updated_by: Mikhail Rykov
+  last_updated_on: 2022-07-09 14:39:32.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-apache-kafka/app/build.gradle.kts
+  detection_source: kotlin-apache-kafka/app/build.gradle.kts
+  last_updated_by: Mikhail Rykov
+  last_updated_on: 2022-12-07 20:46:47.000000000 Z
+- name: ch.qos.logback:logback-core
+  description: Logback-core module
+  version: 1.2.13
+  license: EPL-1.0,LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-quasar/pom.xml
+  detection_source: kotlin-quasar/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-05 22:26:48.000000000 Z
+- name: co.paralleluniverse:quasar-core
+  description: Lightweight threads and actors for the JVM
+  version: 0.8.0
+  license: LGPL-3.0-only,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-quasar/pom.xml
+  detection_source: kotlin-quasar/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-05 22:26:48.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-annotations
+  description: Core annotations used for value types
+  version: 2.14.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/jee-kotlin/pom.xml
+  detection_source: jee-kotlin/pom.xml
+  last_updated_by: Gaetano Piazzolla
+  last_updated_on: 2023-07-08 07:43:53.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-core
+  description: Core Jackson processing abstractions
+  version: 2.11.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-json/pom.xml
+  detection_source: kotlin-json/pom.xml
+  last_updated_by: Diego Torres
+  last_updated_on: 2023-09-13 01:02:06.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  version: 2.15.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/core-kotlin-modules/core-kotlin-7/pom.xml
+  detection_source: core-kotlin-modules/core-kotlin-7/pom.xml
+  last_updated_by: Diego Torres
+  last_updated_on: 2023-05-30 14:15:59.000000000 Z
+- name: com.fasterxml.jackson.dataformat:jackson-dataformat-csv
+  description: Support for reading and writing CSV-encoded data via Jackson abstractions
+  version: 2.11.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries-2/pom.xml
+  detection_source: kotlin-libraries-2/pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2022-11-17 18:10:23.000000000 Z
+- name: com.fasterxml.jackson.datatype:jackson-datatype-jsr310
+  description: Add-on module to support JSR-310
+  version: 2.15.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-spark/pom.xml
+  detection_source: kotlin-spark/pom.xml
+  last_updated_by: Graham Cox
+  last_updated_on: 2023-11-10 07:17:51.000000000 Z
+- name: com.fasterxml.jackson.module:jackson-module-kotlin
+  description: Add-on module for Jackson
+  version: 2.15.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/core-kotlin-modules/core-kotlin-7/pom.xml
+  detection_source: core-kotlin-modules/core-kotlin-7/pom.xml
+  last_updated_by: emanueltrandafir1993
+  last_updated_on: 2023-07-19 20:32:22.000000000 Z
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  version: 2.10.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/core-kotlin-modules/core-kotlin-advanced-2/pom.xml
+  detection_source: core-kotlin-modules/core-kotlin-advanced-2/pom.xml
+  last_updated_by: nappy29
+  last_updated_on: 2023-04-28 02:55:40.000000000 Z
+- name: com.google.protobuf:protobuf-java
+  description: Core Protocol Buffers library
+  version: 3.19.6
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries-2/pom.xml
+  detection_source: kotlin-libraries-2/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-07-05 20:50:47.000000000 Z
+- name: com.h2database:h2
+  description: H2 Database Engine
+  version: 2.1.210
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries/pom.xml
+  detection_source: kotlin-libraries/pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-11-24 15:14:49.000000000 Z
+  vulnerabilities:
+  - name: 'Password exposure in H2 Database '
+    cve_id: CVE-2022-45868
+    cve_url: https://github.com/advisories/GHSA-22wj-vf5f-wrvj
+    detected_date: Nov 24
+    severity: high
+    first_patched: 2.2.220
+- name: com.nhaarman:mockito-kotlin
+  description: Using Mockito with Kotlin
+  version: 1.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-testing/pom.xml
+  detection_source: kotlin-testing/pom.xml
+  last_updated_by: dariusandz
+  last_updated_on: 2023-08-30 02:16:02.000000000 Z
+- name: com.sparkjava:spark-core
+  description: A Sinatra inspired java web framework
+  version: 2.9.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-spark/pom.xml
+  detection_source: kotlin-spark/pom.xml
+  last_updated_by: Graham Cox
+  last_updated_on: 2023-11-10 07:17:51.000000000 Z
+- name: com.squareup.moshi:moshi
+  version: 1.15.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-json/pom.xml
+  detection_source: kotlin-json/pom.xml
+  last_updated_by: gaepi
+  last_updated_on: 2023-09-20 12:01:12.000000000 Z
+- name: com.zaxxer:HikariCP
+  description: Ultimate JDBC Connection Pool
+  version: 5.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries-rdbms/build.gradle
+  detection_source: kotlin-libraries-rdbms/build.gradle
+  last_updated_by: Mikhail Polivakha
+  last_updated_on: 2023-08-18 07:27:15.000000000 Z
+- name: commons-codec:commons-codec
+  description: The Apache Commons Codec package contains simple encoder and decoders
+    for various formats such as Base64 and Hexadecimal
+  version: '1.14'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/core-kotlin-modules/core-kotlin-strings/pom.xml
+  detection_source: core-kotlin-modules/core-kotlin-strings/pom.xml
+  last_updated_by: panagiotiskakos
+  last_updated_on: 2022-11-28 15:37:44.000000000 Z
+- name: io.arrow-kt:arrow-core
+  description: Functional Datatypes and abstractions for Kotlin inspired by Cats
+  version: 1.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/core-kotlin-modules/core-kotlin-advanced-2/pom.xml
+  detection_source: core-kotlin-modules/core-kotlin-advanced-2/pom.xml
+  last_updated_by: crazycloe
+  last_updated_on: 2023-10-10 04:21:16.000000000 Z
+- name: io.grpc:grpc-netty
+  description: 'GRPC: Netty'
+  version: 1.46.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries-2/pom.xml
+  detection_source: kotlin-libraries-2/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-07-05 20:50:47.000000000 Z
+- name: io.grpc:grpc-protobuf
+  description: 'GRPC: Protobuf'
+  version: 1.53.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries-2/pom.xml
+  detection_source: kotlin-libraries-2/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-07-05 20:50:47.000000000 Z
+- name: io.grpc:grpc-stub
+  description: 'GRPC: Stub'
+  version: 1.46.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries-2/pom.xml
+  detection_source: kotlin-libraries-2/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-07-05 20:50:47.000000000 Z
+- name: io.projectreactor:reactor-test
+  description: Reactor Test support
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/spring-boot-kotlin/pom.xml
+  detection_source: spring-boot-kotlin/pom.xml
+  last_updated_by: Chrys Exaucet
+  last_updated_on: 2023-05-11 02:49:11.000000000 Z
+- name: io.rest-assured:rest-assured
+  description: Java DSL for easy testing of REST services
+  version: 3.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/parent-boot-2/pom.xml
+  detection_source: parent-boot-2/pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-11-24 15:14:49.000000000 Z
+- name: javax.validation:validation-api
+  description: Bean Validation API
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/spring-boot-test-kotlin/pom.xml
+  detection_source: spring-boot-test-kotlin/pom.xml
+  last_updated_by: Toni Krešić
+  last_updated_on: 2023-04-08 05:45:53.000000000 Z
+- name: javax:javaee-api
+  description: Java
+  version: '8.0'
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/jee-kotlin/pom.xml
+  detection_source: jee-kotlin/pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-11-24 15:14:49.000000000 Z
+- name: joda-time:joda-time
+  description: Date and time library to replace JDK date handling
+  version: 2.12.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/core-kotlin-modules/core-kotlin-date-time/pom.xml
+  detection_source: core-kotlin-modules/core-kotlin-date-time/pom.xml
+  last_updated_by: Tapan Avasthi
+  last_updated_on: 2023-11-27 02:29:27.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: 3.8.1
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/core-kotlin-modules/core-kotlin-concurrency-3/pom.xml
+  detection_source: core-kotlin-modules/core-kotlin-concurrency-3/pom.xml
+  last_updated_by: Kanake
+  last_updated_on: 2024-01-09 07:54:31.000000000 Z
+- name: mysql:mysql-connector-java
+  description: MySQL JDBC Type 4 driver
+  version: 8.0.33
+  license: GPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries-orm/pom.xml
+  detection_source: kotlin-libraries-orm/pom.xml
+  last_updated_by: David Parlanti
+  last_updated_on: 2023-11-24 18:00:08.000000000 Z
+- name: net.bytebuddy:byte-buddy
+  description: Byte Buddy is a Java library for creating Java classes at run time
+  version: 1.8.13
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries/pom.xml
+  detection_source: kotlin-libraries/pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-11-24 15:14:49.000000000 Z
+- name: net.bytebuddy:byte-buddy-agent
+  description: The Byte Buddy agent offers convenience for attaching an agent to the
+    local or a remote VM
+  version: 1.8.13
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries/pom.xml
+  detection_source: kotlin-libraries/pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-11-24 15:14:49.000000000 Z
+- name: org.apache.commons:commons-csv
+  description: The Apache Commons CSV library provides a simple interface for reading
+    and writing CSV files of various types
+  version: 1.9.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries-2/pom.xml
+  detection_source: kotlin-libraries-2/pom.xml
+  last_updated_by: Burhanuddin Rashid
+  last_updated_on: 2023-08-14 15:39:07.000000000 Z
+- name: org.apache.commons:commons-math3
+  description: The Apache Commons Math project is a library of lightweight
+  version: 3.6.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/core-kotlin-modules/core-kotlin-collections/pom.xml
+  detection_source: core-kotlin-modules/core-kotlin-collections/pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-11-24 15:14:49.000000000 Z
+- name: org.apache.poi:poi
+  description: Apache POI - Java API To Access Microsoft Format Files
+  version: 5.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries-2/pom.xml
+  detection_source: kotlin-libraries-2/pom.xml
+  last_updated_by: Burhanuddin Rashid
+  last_updated_on: 2023-08-14 15:39:07.000000000 Z
+- name: org.apache.poi:poi-ooxml
+  description: Apache POI - Java API To Access Microsoft Format Files
+  version: 5.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries-2/pom.xml
+  detection_source: kotlin-libraries-2/pom.xml
+  last_updated_by: Burhanuddin Rashid
+  last_updated_on: 2023-08-14 15:39:07.000000000 Z
+- name: org.assertj:assertj-core
+  description: Rich and fluent assertions for testing for Java
+  version: 3.23.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-reflection/pom.xml
+  detection_source: kotlin-reflection/pom.xml
+  last_updated_by: Mikhail2048
+  last_updated_on: 2023-09-06 12:21:25.000000000 Z
+- name: org.deeplearning4j:deeplearning4j-core
+  description: DeepLearning for java
+  version: 0.9.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/machine-learning/pom.xml
+  detection_source: machine-learning/pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-11-25 11:37:41.000000000 Z
+- name: org.http4k:http4k-core
+  description: Sane HTTP request API for Kotlin
+  version: 5.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries-http/pom.xml
+  detection_source: kotlin-libraries-http/pom.xml
+  last_updated_by: dariusandz
+  last_updated_on: 2023-08-28 04:37:01.000000000 Z
+- name: org.jboss.arquillian.junit:arquillian-junit-container
+  description: JUnit Container Implementation for the Arquillian Project
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/jee-kotlin/pom.xml
+  detection_source: jee-kotlin/pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-11-24 15:14:49.000000000 Z
+- name: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-depchain
+  description: Single-POM Definition to export the ShrinkWrap Resolver artifacts in
+    proper scope
+  version: 3.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/jee-kotlin/pom.xml
+  detection_source: jee-kotlin/pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-11-24 15:14:49.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-reflect
+  description: Kotlin Full Reflection Library
+  version: 1.9.22
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: timis1
+  last_updated_on: 2024-02-02 18:56:09.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib
+  description: Kotlin Standard Library for JVM
+  version: 1.9.22
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/pom.xml
+  detection_source: kotlin-libraries-2/pom.xml
+  last_updated_by: Burhanuddin Rashid
+  last_updated_on: 2023-08-14 15:39:07.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib-jdk7
+  description: Kotlin Standard Library JDK 7 extension
+  version: 1.9.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/core-kotlin-modules/core-kotlin-5/pom.xml
+  detection_source: core-kotlin-modules/core-kotlin-5/pom.xml
+  last_updated_by: Tapan Avasthi
+  last_updated_on: 2023-08-08 03:42:05.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib-jdk8
+  description: Kotlin Standard Library JDK 8 extension
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/jee-kotlin/pom.xml
+  detection_source: jee-kotlin/pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-11-24 15:14:49.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib-js
+  description: Kotlin Standard Library for JS
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-js/build.gradle
+  detection_source: kotlin-js/build.gradle
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-11-24 15:14:49.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-test-js
+  description: Kotlin Test for JS
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-js/build.gradle
+  detection_source: kotlin-js/build.gradle
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-11-24 15:14:49.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-test-junit
+  description: Kotlin Test JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/jee-kotlin/pom.xml
+  detection_source: jee-kotlin/pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-11-24 15:14:49.000000000 Z
+- name: org.jetbrains.kotlinx:kotlinx-coroutines-jdk8
+  description: Coroutines support libraries for Kotlin
+  version: 1.6.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/core-kotlin-modules/core-kotlin-concurrency-2/pom.xml
+  detection_source: core-kotlin-modules/core-kotlin-concurrency-2/pom.xml
+  last_updated_by: maryarm
+  last_updated_on: 2023-04-24 05:46:23.000000000 Z
+- name: org.jetbrains.spek:spek-api
+  description: A Specification Framework for the JVM
+  version: 1.1.5
+  license: BSD-2-Clause-NetBSD
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-testing/pom.xml
+  detection_source: kotlin-testing/pom.xml
+  last_updated_by: dariusandz
+  last_updated_on: 2023-08-30 02:16:02.000000000 Z
+- name: org.jetbrains.spek:spek-junit-platform-engine
+  description: Spek TestEngine for the JUnit Platform
+  version: 1.1.5
+  license: BSD-2-Clause-NetBSD
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-testing/pom.xml
+  detection_source: kotlin-testing/pom.xml
+  last_updated_by: dariusandz
+  last_updated_on: 2023-08-30 02:16:02.000000000 Z
+- name: org.jooq:jooq
+  description: JOOQ effectively combines complex SQL
+  version: 3.18.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries-rdbms/build.gradle
+  detection_source: kotlin-libraries-rdbms/build.gradle
+  last_updated_by: Mikhail Polivakha
+  last_updated_on: 2023-08-18 07:27:15.000000000 Z
+- name: org.json:json
+  description: JSON is a light-weight, language independent, data interchange format
+  license: JSON
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: timis1
+  last_updated_on: 2024-02-02 18:56:09.000000000 Z
+- name: org.junit.platform:junit-platform-runner
+  description: Module "junit-platform-runner" of JUnit 5
+  version: 1.1.1
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/core-kotlin-modules/core-kotlin-datastructures-2/pom.xml
+  detection_source: core-kotlin-modules/core-kotlin-datastructures-2/pom.xml
+  last_updated_by: Harpal Singh
+  last_updated_on: 2023-11-19 18:35:42.000000000 Z
+- name: org.nd4j:nd4j-native-platform
+  version: 0.9.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/machine-learning/pom.xml
+  detection_source: machine-learning/pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-11-25 11:37:41.000000000 Z
+- name: org.objenesis:objenesis
+  description: A library for instantiating Java objects
+  version: '2.6'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries/pom.xml
+  detection_source: kotlin-libraries/pom.xml
+  last_updated_by: Haroon Khan
+  last_updated_on: 2022-02-10 19:11:13.000000000 Z
+- name: org.postgresql:postgresql
+  description: The PostgreSQL Driver JDBC4
+  version: 42.5.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries-rdbms/build.gradle
+  detection_source: kotlin-libraries-rdbms/build.gradle
+  last_updated_by: Mikhail Polivakha
+  last_updated_on: 2023-08-18 07:27:15.000000000 Z
+  vulnerabilities:
+  - name: org.postgresql:postgresql vulnerable to SQL Injection via line comment generation
+    cve_id: CVE-2024-1597
+    cve_url: https://github.com/advisories/GHSA-24rp-q3w6-vc56
+    detected_date: Feb 22
+    severity: critical
+    first_patched: 42.5.5
+  - name: 'Duplicate Advisory: SQL injection in pgjdbc'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-xfg6-62px-cxc2
+    detected_date: Feb 21
+    severity: critical
+    first_patched: 42.5.5
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  version: 1.18.26
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/core-kotlin-modules/core-kotlin-annotations/pom.xml
+  detection_source: core-kotlin-modules/core-kotlin-annotations/pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2023-03-28 13:38:47.000000000 Z
+- name: org.slf4j:jcl-over-slf4j
+  description: JCL 1.2 implemented over SLF4J
+  version: 1.7.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-quasar/pom.xml
+  detection_source: kotlin-quasar/pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-11-24 15:14:49.000000000 Z
+- name: org.slf4j:slf4j-api
+  description: The slf4j API
+  version: 1.7.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-quasar/pom.xml
+  detection_source: kotlin-quasar/pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-11-24 15:14:49.000000000 Z
+- name: org.springframework.boot:spring-boot-starter
+  description: Core starter
+  version: 2.7.14
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries-rdbms/build.gradle
+  detection_source: kotlin-libraries-rdbms/build.gradle
+  last_updated_by: Mikhail Polivakha
+  last_updated_on: 2023-08-18 07:27:15.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-actuator
+  description: Starter for using Spring Boot's Actuator which provides production
+    ready features to help you monitor and manage your application
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/spring-reactive-kotlin/pom.xml
+  detection_source: spring-reactive-kotlin/pom.xml
+  last_updated_by: Gaetano Piazzolla
+  last_updated_on: 2023-10-22 08:38:40.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-jpa
+  description: Starter for using Spring Data JPA with Hibernate
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/spring-boot-crud-kotlin/pom.xml
+  detection_source: spring-boot-crud-kotlin/pom.xml
+  last_updated_by: Harry9656
+  last_updated_on: 2023-11-22 17:00:18.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-security
+  description: Starter for using Spring Security
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/spring-security-kotlin-dsl/pom.xml
+  detection_source: spring-security-kotlin-dsl/pom.xml
+  last_updated_by: Gaetano Piazzolla
+  last_updated_on: 2023-10-22 08:38:40.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  version: 2.7.14
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries-rdbms/build.gradle
+  detection_source: kotlin-libraries-rdbms/build.gradle
+  last_updated_by: Mikhail Polivakha
+  last_updated_on: 2023-08-18 07:27:15.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-thymeleaf
+  description: Starter for building MVC web applications using Thymeleaf views
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/spring-mvc-kotlin/pom.xml
+  detection_source: spring-mvc-kotlin/pom.xml
+  last_updated_by: Forb Yuan
+  last_updated_on: 2023-07-17 20:13:49.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-validation
+  description: Starter for using Java Bean Validation with Hibernate Validator
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/spring-boot-test-kotlin/pom.xml
+  detection_source: spring-boot-test-kotlin/pom.xml
+  last_updated_by: Gaetano Piazzolla
+  last_updated_on: 2023-10-22 08:38:40.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/spring-boot-crud-kotlin/pom.xml
+  detection_source: spring-boot-crud-kotlin/pom.xml
+  last_updated_by: Harry9656
+  last_updated_on: 2023-11-22 17:00:18.000000000 Z
+- name: org.springframework.integration:spring-integration-core
+  description: Spring Integration Core
+  version: 6.0.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/spring-boot-kotlin/pom.xml
+  detection_source: spring-boot-kotlin/pom.xml
+  last_updated_by: Gaetano Piazzolla
+  last_updated_on: 2023-10-22 08:38:40.000000000 Z
+- name: org.springframework.integration:spring-integration-file
+  description: Spring Integration File Support
+  version: 6.0.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/spring-boot-kotlin/pom.xml
+  detection_source: spring-boot-kotlin/pom.xml
+  last_updated_by: Gaetano Piazzolla
+  last_updated_on: 2023-10-22 08:38:40.000000000 Z
+- name: org.springframework.security:spring-security-test
+  description: Spring-security-test
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/spring-security-kotlin-dsl/pom.xml
+  detection_source: spring-security-kotlin-dsl/pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-11-25 11:37:41.000000000 Z
+- name: org.springframework:spring-jdbc
+  description: Spring JDBC
+  version: 5.3.29
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-libraries-rdbms/build.gradle
+  detection_source: kotlin-libraries-rdbms/build.gradle
+  last_updated_by: Mikhail Polivakha
+  last_updated_on: 2023-08-18 07:27:15.000000000 Z
+- name: uy.kohesive.klutter:klutter-core
+  description: Random small libraries for Kotlin
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-immutable-collections/pom.xml
+  detection_source: kotlin-immutable-collections/pom.xml
+  last_updated_by: Krzysztof Piszko
+  last_updated_on: 2021-09-07 13:38:53.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/audu97/kotlin-tutorials/blob/master/kotlin-js/package.json
+  detection_source: kotlin-js/package.json
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-11-24 15:14:49.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
